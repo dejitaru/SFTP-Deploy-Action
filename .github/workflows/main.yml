@@ -7,7 +7,7 @@ jobs:
     name: sftp
     steps:
       - name: Checkout    
-        uses: actions/checkout@v2 
+        uses: actions/checkout@v3 
 
       - name: deploy file to server
         uses:  ./ # Uses an action in the root directory
